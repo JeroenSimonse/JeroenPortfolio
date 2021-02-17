@@ -22,6 +22,8 @@ For this project, SVD was also used to construct the CF model.
 SVD first decomposes the User-Item matrix, and then reconstructs it by calculating the dot product between the decomposed matrices. 
 The reconstructed matrix contains the recommendations for all users.
 
+![](/images/cfmodel.png)
+
 ## Content based Filtering
 
 Content based filtering (CBF) focusses more on the contents of the items, in this case the games. 
@@ -31,7 +33,13 @@ After these profiles are built, they can be vectorized by a simple vectorizer.
 The last step is to calculate the similarities between the profiles based on the cosine similarity. 
 The most similar items get recommended to the user. 
 
+![](/images/cbmodel.png)
+
 ## Results
+
+The collaborative filtering model was performing better compared to the content based model. More specifically, the model with seven latent factors and smooted ratings performed best.
+
+
 
 # [Project 2: Sentence classification]( https://github.com/JeroenSimonse/DeepLearningProject )
 This project was part of our Deep Learning course and consisted of the following tasks:
