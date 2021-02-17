@@ -20,7 +20,7 @@ In short, the project can be devided in the following tasks:
 There are several ways to construct a collaborative filtering (CF) model, but the most conventional model is a Singular Value Decomposition(SVD) model. 
 For this project, SVD was also used to construct the CF model.
 SVD first decomposes the User-Item matrix, and then reconstructs it by calculating the dot product between the decomposed matrices. 
-The 
+The reconstructed matrix contains the recommendations for all users.
 
 ## Content based Filtering
 
