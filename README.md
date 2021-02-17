@@ -31,13 +31,23 @@ After these profiles are built, they can be vectorized by a simple vectorizer.
 The last step is to calculate the similarities between the profiles based on the cosine similarity. 
 The most similar items get recommended to the user. 
 
+## Results
+
 # [Project 2: Sentence classification]( https://github.com/JeroenSimonse/DeepLearningProject )
 This project was part of our Deep Learning course and consisted of the following tasks:
 1. Text classification
 	* Is a sentence original English or translated from French to English by using a Neural Network model
 2. Format the predictions in a text file 
 
-The model that was constructed for this project, was a Bidirectional LSTM Recurrent Neural Network. 
+The model that was constructed for this project, was a Bidirectional LSTM Recurrent Neural Network, with the following architecture:
+
+![](https://github.com/JeroenSimonse/JeroenPortfolio/blob/main/images/Model%20architecture.png)
+
+## Results
+The model was optimized with the adam algorithm and got to an accuracy of 75,5%.
+
+![](https://github.com/JeroenSimonse/JeroenPortfolio/blob/main/images/Model%20accuracy%20DL.png)
+
 
 
 
