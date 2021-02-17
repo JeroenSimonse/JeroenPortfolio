@@ -41,12 +41,12 @@ This project was part of our Deep Learning course and consisted of the following
 
 The model that was constructed for this project, was a Bidirectional LSTM Recurrent Neural Network, with the following architecture:
 
-![](/images/Model%20architecture.png)
+![](https://github.com/JeroenSimonse/JeroenPortfolio/blob/main/images/modelarchitecture.png)
 
 ## Results
 The model was optimized with the adam algorithm and got to an accuracy of 75,5%.
 
-![](/images/Model%20accuracy%20DL.png)
+![](https://github.com/JeroenSimonse/JeroenPortfolio/blob/main/images/modelaccuracydl.png)
 
 
 
