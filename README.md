@@ -57,7 +57,20 @@ The model was optimized with the adam algorithm and got to an accuracy of 75,5%.
 ![](/images/modelaccuracydl.png)
 
 
+# [Project 3: Multi-linear regression inferential modeling/predictive modeling]( https://github.com/JeroenSimonse/StatisticsProject ) 
 
+This project was made for our Statistics course and consisted of the following goals:
+1. Data preparation
+	* Evaluate the extent of the missing data
+	* Treat univariate outliers
+	* Treat multivariat outliers
+	* Treat missing data
+2. Inferential modeling task
+	* Using MLR to asses if conservative attitudes are good or bad for your psychological well-being
+3. Predictive modeling task
+	* Using MLR to predict how satisfied people are with life
 
+Based on the dataset *Wave 6 of the World Values Survey*.
 
-
+## Results  
+For the inferential modeling task, conservatism had a significant effect on the psychological well-being of people. 
