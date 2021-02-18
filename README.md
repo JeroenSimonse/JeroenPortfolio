@@ -1,5 +1,11 @@
-# JeroenPortfolio
-Summary of all projects
+# Profile 
+* Name: Jeroen Simonse
+* Age: 24
+* Sex: Male
+* Education: Master of Science (Msc) in Data Science and Society
+* Skills: Python, R, Machine Learning, Deep Learning, MS Office
+* Interests: Tech enthousiast, Working out, Skiing, Friends
+
 
 
 # [Project 1: Recommender systems]( https://github.com/JeroenSimonse/ThesisProject )
