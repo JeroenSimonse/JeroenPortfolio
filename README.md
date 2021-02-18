@@ -94,9 +94,11 @@ For the image classification the CNN model performed best, and scored an accurac
 For the second task a sliding window was applied to the images, however this didn't work properly, as the letters appeared in random places and could even overlap eachother. 
 
 CNN Accuracy:
+
 ![CNN Accuracy](/images/cnnaccuracy.png) 
 
 
 MLP Accuracy:
+
 ![MLP Accuracy](/images/mlpaccuracy.png) 
 
