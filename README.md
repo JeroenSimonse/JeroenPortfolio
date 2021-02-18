@@ -91,7 +91,10 @@ The models from task 1 were trained and tested on the MNIST dataset. For the sec
 
 ## Results
 For the image classification the CNN model performed best, and scored an accuracy of ~95%. The MLP models scored slightly worse, and scored an accuracy of 92%.
+For the second task a sliding window was applied to the images, however this didn't work properly, as the letters appeared in random places and could even overlap eachother. 
+CNN Accuracy:
+![CNN Accuracy](/images/cnnaccuracy.png) 
 
-
-![CNN Accuracy](/images/cnnaccuracy.png) ![MLP Accuracy](/images/mlpaccuracy.png) 
+MLP Accuracy:
+![MLP Accuracy](/images/mlpaccuracy.png) 
 
