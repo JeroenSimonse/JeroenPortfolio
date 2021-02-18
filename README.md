@@ -66,11 +66,32 @@ This project was made for our Statistics course and consisted of the following g
 	* Treat multivariat outliers
 	* Treat missing data
 2. Inferential modeling task
+	* Make a selection of all relevant features
 	* Using MLR to asses if conservative attitudes are good or bad for your psychological well-being
 3. Predictive modeling task
+	* Make a selection of all relevant features
 	* Using MLR to predict how satisfied people are with life
 
 Based on the dataset *Wave 6 of the World Values Survey*.
 
+
 ## Results  
-For the inferential modeling task, conservatism had a significant effect on the psychological well-being of people. 
+For the inferential modeling task, conservatism had a significant positive effect on the psychological well-being of people, after controlling for confounding variables.
+With the predictive modeling taske, the model managed to predict satisfaction with life with a RSME of 1.38  on a scale of 0-10.
+
+
+# [Project 4: Image classification]( https://github.com/JeroenSimonse/MachineLearningProject )
+
+This project was part of our Machine Learning course and consisted of the following two tasks:
+1. Image classification
+	* Using and testing MLP and CNN models
+2. Using the best performing classifier from task 1, to identify a series of five letters in one image
+
+The models from task 1 were trained and tested on the MNIST dataset. For the second task, our professor a custom dataset. 
+
+## Results
+For the image classification the CNN model performed best, and scored an accuracy of ~95%. The MLP models scored slightly worse, and scored an accuracy of 92%.
+
+
+![CNN Accuracy](/images/cnnaccuracy.png) ![MLP Accuracy](/images/mlpaccuracy.png) 
+
