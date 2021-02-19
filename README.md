@@ -11,7 +11,7 @@
 # [Project 1: Recommender systems]( https://github.com/JeroenSimonse/ThesisProject )
 
 This project was part of my thesis: 'Comparing collaborative filtering with content based filtering on Steam games', and marked my last project before graduating.
-The main goal of the project was constructing both a collaborative and content based recommendersystem, to compare the performance of both of these techniques. 
+The main goal of the project was constructing both a collaborative and content based recommender system, to compare the performance of both of these techniques. 
 In short, the project can be devided in the following tasks:
 1. Cleaning the Steam user dataset
 2. Cleaning the Games dataset
@@ -23,10 +23,10 @@ In short, the project can be devided in the following tasks:
 
 ## Collaborative Filtering
 
-There are several ways to construct a collaborative filtering (CF) model, but the most conventional model is a Singular Value Decomposition(SVD) model. 
-For this project, SVD was also used to construct the CF model.
+There are several ways to construct a collaborative filtering (CF) model, but the most conventional model is the Singular Value Decomposition (SVD) model. 
+Because of this, SVD was also used to construct the CF model for this project.
 SVD first decomposes the User-Item matrix, and then reconstructs it by calculating the dot product between the decomposed matrices. 
-The reconstructed matrix contains the recommendations for all users.
+The reconstructed matrix contains the recommendations for all users. A quick overview of CF is shown below:
 
 ![](/images/cfmodel.png)
 
@@ -37,14 +37,13 @@ It recommends games to users that are similar to the games the user already play
 For this method the first step is to create user profiles for all users and item profiles for all items. 
 After these profiles are built, they can be vectorized by a simple vectorizer. 
 The last step is to calculate the similarities between the profiles based on the cosine similarity. 
-The most similar items get recommended to the user. 
+The most similar items get recommended to the user. A quick overview of CBF is shown below:
 
 ![](/images/cbmodel.png)
 
 ## Results
 
-The collaborative filtering model was performing better compared to the content based model. More specifically, the model with seven latent factors and smooted ratings performed best.
-
+The CF model was performing better compared to the CBF model. More specifically, the CF model managed to generate meaningful recommendations ~67% of the time versus ~45% for the CBF model. Even the baseline model (which was a simple popular based model) scored higher than the CBF model, with a rate of ~55%. 
 
 
 # [Project 2: Sentence classification]( https://github.com/JeroenSimonse/DeepLearningProject )
@@ -65,7 +64,7 @@ The model was optimized with the adam algorithm and got to an accuracy of 75,5%.
 
 # [Project 3: Multi-linear regression inferential modeling/predictive modeling]( https://github.com/JeroenSimonse/StatisticsProject ) 
 
-This project was made for our Statistics course and consisted of the following goals:
+This project was made for our Statistics course and consisted of the following tasks:
 1. Data preparation
 	* Evaluate the extent of the missing data
 	* Treat univariate outliers
@@ -83,7 +82,7 @@ Based on the dataset *Wave 6 of the World Values Survey*.
 
 ## Results  
 For the inferential modeling task, conservatism had a significant positive effect on the psychological well-being of people, after controlling for confounding variables.
-With the predictive modeling taske, the model managed to predict satisfaction with life with a RSME of 1.38  on a scale of 0-10.
+The predictive model managed to predict satisfaction with life with a RSME of 1.38  on a scale of 0-10.
 
 
 # [Project 4: Image classification]( https://github.com/JeroenSimonse/MachineLearningProject )
